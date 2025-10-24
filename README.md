@@ -1,14 +1,17 @@
 # Crimson Hacks Competition
 
 This where we store our files for the event
+___
 
 ### Idea:
 Not decided yet
+___
 
 ### Tasks to work on:
 - [ ] Not decided yet (person working on it)
 - [ ] Not decided yet (person working on it)
 - [ ] Not decided yet (person working on it)
+___
 
 ### Contribution plan:
 Since this is being done by multiple people, it is best practice to learn how git/github works with its branches, for this project we will be using a
