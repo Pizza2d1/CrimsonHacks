@@ -1,6 +1,6 @@
 <?php
 // Define the path to the image directory
-$imageDirectory = 'img/';
+$imageDirectory = '/CrimsonHacks/img';
 
 // Get all image files (PNG, JPG, GIF, JPEG) in the directory
 $imageFiles = glob($imageDirectory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
