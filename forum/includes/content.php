@@ -43,11 +43,6 @@ function get_project_data() {
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     $lorem
-    ),
-      new Info_Box(
-    "Am I a prostitute for \"doing it\" for a chili dog?",
-    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lorem
     )
     #  new Info_Box(
     #"My Operating System Built From Scratch",
