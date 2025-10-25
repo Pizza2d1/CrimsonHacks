@@ -1,6 +1,6 @@
 <?php
 include_once("./lorem.php");
-function forum_item($amount_to_show) {
+function forum_item() {
     class Info_Box {
       public $title;
       public $image;
@@ -14,10 +14,6 @@ function forum_item($amount_to_show) {
     }
     
     $info_boxes = get_project_data();
-    $county = count($info_boxes);
-    if ($amount_to_show > $county) {
-      $amount_to_show = $county;
-    }
 
     $output = "";
     $output .= '<div class="forum-row">';
@@ -29,7 +25,7 @@ function forum_item($amount_to_show) {
     return $output;
 }
 function get_project_data() {
-    $lipsum = new LoremIpsum();
+  $lorem = "balls";
 
     $projects_dir = "/project_page/projects";
     
@@ -37,22 +33,22 @@ function get_project_data() {
       new Info_Box(
     "I locked my son in his room for insulting Karl Mars, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5) 
+    $lorem
     ),
       new Info_Box(
     "I cut my wife off from our finances because she wouldn’t stop ordering chili dogs, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5)
+    $lorem
     ),
       new Info_Box(
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5)
+    $lorem
     ),
       new Info_Box(
     "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5)
+    $lorem
     ),
     #  new Info_Box(
     #"My Operating System Built From Scratch",
