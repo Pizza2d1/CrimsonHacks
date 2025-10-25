@@ -190,6 +190,7 @@ $currentSrc = $currentIndex < $total ? $images[$currentIndex] : null;
 </style>
 </head>
 <body>
+<?php echo navbar(); ?> 
 <div class="app">
   <div class="topbar">
     <div class="title">Smash or Pass</div>
