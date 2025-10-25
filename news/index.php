@@ -13,6 +13,8 @@ $newsContent2 = "Chaos erupted this morning as reports came in that enemy forces
 “Our chili dogs are more than food—they are our heritage,” said Mayor Lucinda Pepper, rallying the crowd in front of City Hall. Military units have been deployed to key locations, and emergency chili dog rationing is now in effect. Social media is flooded with messages of solidarity, with hashtags like #ChiliDogStrong and #DefendCydonia trending worldwide.
 
 Analysts warn that if the enemy succeeds, it could lead to a severe morale crisis across the city. But for now, Cydonia stands united, determined to defend every last chili dog from theft or destruction.";
+$newsTitle3 = "How the radical humans are taking away your right to sapien meat";
+$newsContent3 = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.";
 ?>
 
 <!DOCTYPE html>
@@ -47,6 +49,9 @@ Analysts warn that if the enemy succeeds, it could lead to a severe morale crisi
                 <br><br>
                 <h2><?= $newsTitle2 ?></h2>
                 <p><?= $newsContent2 ?></p>
+                <br><br>
+                <h2><?= $newsTitle3 ?></h2>
+                <p><?= $newsContent3 ?></p>
             </div>
 
             <!-- Right Image -->
