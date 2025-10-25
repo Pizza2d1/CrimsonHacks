@@ -14,11 +14,11 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
 </head>
 <body>
 
+    <?php echo navbar(); ?>
+
     <header>
         <h1>Welcome to the News Site</h1>
     </header>
-
-    <?php echo navbar(); ?>
 
     <main>
         <div class="news-container">
