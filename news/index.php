@@ -24,7 +24,10 @@ Analysts warn that if the enemy succeeds, it could lead to a severe morale crisi
 </head>
 <body>
 
-    <?php echo navbar(); ?>
+    <?php echo navbar(); 
+
+                #<h3><a href="https://pizza2d1.duckdns.org/CrimsonHacks/cia/">This is text on the side</a></h3>
+?>
 
     <header>
         <h1>Welcome to the News Site</h1>
@@ -48,7 +51,9 @@ Analysts warn that if the enemy succeeds, it could lead to a severe morale crisi
 
             <!-- Right Image -->
             <div class="text-container right">
-                <h3><a href="https://pizza2d1.duckdns.org/CrimsonHacks/cia/">This is text on the side</a></h3>
+                <video width="300" controls>
+                  <source src="img/MartianAddress.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </main>
