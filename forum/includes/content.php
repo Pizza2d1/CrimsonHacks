@@ -28,8 +28,6 @@ function forum_item() {
 function get_project_data() {
   $lorem = "balls";
 
-    $projects_dir = "/project_page/projects";
-    
     $info_boxes = [
       new Info_Box(
     "I locked my son in his room for insulting Karl Mars, Am I the Asshole?",
@@ -50,7 +48,7 @@ function get_project_data() {
     "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     $lorem
-    ),
+    )
     #  new Info_Box(
     #"My Operating System Built From Scratch",
     #"$projects_dir/os_making/img/qemu1.png",
@@ -65,16 +63,15 @@ function getInfoAsBox($info_box) {
         #$image = (strtolower($info_box->image) == "none") ? "" : "<a href='$info_box->href'><img src=$info_box->image alt='Image not found' width='100%' height='auto'></a>";
         $image = $info_box->image;
         $about = $info_box->about;
-        return "balls";
-        #return "
-        #    <div class='forum-card'>
-        #        <div class='forum-title'>
-        #          <img src='$image'>
-        #          $title
-        #        </div>
-        #        <div class='forum-about'><h4>$about</h4></div>
-        #    </div>
-        #</div>";
+        return "
+            <div class='forum-card'>
+                <div class='forum-title'>
+                  <img src='$image'>
+                  $title
+                </div>
+                <div class='forum-about'><h4>$about</h4></div>
+            </div>
+        </div>";
 };
 function title() {
 return "
