@@ -10,7 +10,7 @@ include_once("./includes/main_page.php");
     <?php echo navbar(); ?> 
       
 
-    <img src="img/img.png">
+    <img class="ad" src="img/img.png">
     
     </body>
 </html>
