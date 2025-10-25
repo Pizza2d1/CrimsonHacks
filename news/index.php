@@ -33,7 +33,8 @@ $newsTitle4 = "50 Aligators found in Cydania crader";
 ?>
 
     <header>
-        <h1>Martian News (def not propaganda)</h1>
+        <h1>Martian News</h1>
+        <p>(def not propaganda)</p>
     </header>
 
     <main>
