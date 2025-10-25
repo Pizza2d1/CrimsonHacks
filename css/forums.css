@@ -133,3 +133,47 @@ a:hover {
     max-width: 400px;
     margin: 0 10px;
 }
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.news-content {
+    max-width: 600px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 200px;
+    margin: 0 10px;
+}
+.text-container {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 10px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+/* Left and Right Image Specific Styles */
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
