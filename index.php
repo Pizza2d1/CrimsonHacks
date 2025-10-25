@@ -10,7 +10,7 @@ include_once("./includes/main_page.php");
   <?php echo navbar(); ?> 
 
   <div id="main">
-    <video width="600" controls>
+    <video width="300" controls>
       <source src="img/MartianAddress.mp4" type="video/mp4">
     </video>
 
