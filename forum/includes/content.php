@@ -37,22 +37,22 @@ function get_project_data() {
       new Info_Box(
     "I locked my son in his room for insulting Karl Mars, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5); 
+    $lipsum->words(5) 
     ),
       new Info_Box(
     "I cut my wife off from our finances because she wouldn’t stop ordering chili dogs, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5); 
+    $lipsum->words(5)
     ),
       new Info_Box(
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5); 
+    $lipsum->words(5)
     ),
       new Info_Box(
     "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    $lipsum->words(5); 
+    $lipsum->words(5)
     ),
     #  new Info_Box(
     #"My Operating System Built From Scratch",
