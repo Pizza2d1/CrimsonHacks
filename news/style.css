@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Layout for the news container */
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.news-content {
+    max-width: 600px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 200px;
+    margin: 0 10px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left and Right Image Specific Styles */
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
