@@ -41,7 +41,7 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
     </main>
 
     <footer>
-        <p>&copy; <?= date('Y') ?> News Site. All rights reserved.</p>
+        <p>&copy; <?= date('Y') ?> Mars United. All rights reserved.</p>
     </footer>
 
 </body>
