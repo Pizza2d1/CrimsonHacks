@@ -14,7 +14,7 @@ include_once("./includes/main_page.php");
     "Do you want to charge us for just eating Humans? To this crime we plead guilty. " - Our glorius leader Karl Mars
   </div>
 
-  <img class="ad" src="img/img.png">
+  <img class="ad" src="img/ads/hot_aliens.png">
   
   </body>
 </html>
