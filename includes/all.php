@@ -24,12 +24,12 @@ function navbar() {
 return "
 <nav class='navbar'>
     <ul>
-        <li><a href='/'>Homepage</a></li>
-        <li><a href='/projects/'>Projects</a></li>
-        <li><a href='/forum/'>Forum</a></li>
-        <li><a href='/dating/'>Dating</a></li>
-        <li><a href='/news/'>News</a></li>
-        <div class='navbar-social'><li>Mars Marx Party</li></div>
+        <li><a href='/CrimsonHacks/'>Homepage</a></li>
+        <li><a href='/CrimsonHacks/projects/'>Projects</a></li>
+        <li><a href='/CrimsonHacks/forum/'>Forum</a></li>
+        <li><a href='/CrimsonHacks/dating/'>Dating</a></li>
+        <li><a href='/CrimsonHacks/news/'>News</a></li>
+        <div class='navbar-social'><li><a href='/CrimsonHacks/leader.png'>Mars Marx Party</a></li></div>
     </ul>   
 </nav>
 ";
