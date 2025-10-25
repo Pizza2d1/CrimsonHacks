@@ -21,7 +21,7 @@ function forum_item() {
       $output .= getInfoAsBox($item_box);
     }
     $output .= '</div>'; 
-    $output .= '<br>'; 
+    $output .= '<br><br><br><br>'; 
     return $output;
 }
 function get_project_data() {
@@ -64,7 +64,27 @@ function getInfoAsBox($info_box) {
         #$image = (strtolower($info_box->image) == "none") ? "" : "<a href='$info_box->href'><img src=$info_box->image alt='Image not found' width='100%' height='auto'></a>";
         $image = $info_box->image;
         $about = $info_box->about;
+        #return "
+        #    <div class='forum-card' style='border: 5px solid black; border-radius: 5px; margin: 10px; padding: 10px;'>
+        #        <div class='forum-title'>
+        #          <img style='width: 80px;' src='$image'>
+        #          <h2>$title</h2>
+        #        </div>
+        #        <div class='forum-about'><h4>$about</h4></div>
+        #        <svg style='width: 24px;' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z'/></svg>
+        #        3
+        #    </div>
+        #</div>";
+
         return "
+        <div class='news-container'>
+            <!-- Left Image -->
+            <div class='image-container left'>
+                <img src='images/img.png' alt='Image 1' class='news-image'>
+            </div>
+
+            <!-- News Content -->
+            <div class='news-content'>
             <div class='forum-card' style='border: 5px solid black; border-radius: 5px; margin: 10px; padding: 10px;'>
                 <div class='forum-title'>
                   <img style='width: 80px;' src='$image'>
@@ -73,6 +93,15 @@ function getInfoAsBox($info_box) {
                 <div class='forum-about'><h4>$about</h4></div>
                 <svg style='width: 24px;' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z'/></svg>
                 3
+            </div>
+        </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class='text-container right'>
+                <video width='300' controls autoplay loop muted>
+                  <source src='../img/MartianAddress.mp4' type='video/mp4'>
+                </video>
             </div>
         </div>";
 };
