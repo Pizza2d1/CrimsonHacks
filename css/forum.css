@@ -5,3 +5,7 @@ body {
 .forum-card {
   background-color: #ffffff;
 }
+
+.forum-card svg {
+  fill: #ffffff;
+}
