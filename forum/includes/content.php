@@ -67,7 +67,7 @@ function getInfoAsBox($info_box) {
         return "
             <div class='forum-card'>
                 <div class='forum-title'>
-                  <img class='profile' src='$image'>
+                  <img style='width: 80px;' src='$image'>
                   $title
                 </div>
                 <div class='forum-about'><h4>$about</h4></div>
