@@ -8,7 +8,7 @@ include_once("./includes/content.php");
     <?php echo head(['all','forum']);?>
     <body>
     <?php
-      echo forum_item(5);
+echo "penis";
     ?>
     </body>
 </html>
