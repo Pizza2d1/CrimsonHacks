@@ -5,7 +5,7 @@ include_once("./includes/main_page.php");
 
 <!DOCTYPE html>
 <html lang="en-US">
-    <?php echo head(['all']);?>
+    <?php echo head(['all', 'main_page']);?>
     <body>
     <?php echo navbar(); ?> 
       

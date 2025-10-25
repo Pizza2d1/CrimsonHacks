@@ -25,21 +25,12 @@ return "
 <nav class='navbar'>
     <h1>Martian Marxist Party</h1>
     <ul>
-        <li><a href='/'>Homepage</a></li>
-        <li><a href='/project_page/projects/'>Projects</a></li>
-        <li><a href='/project_page/certifications/'>Certifications</a></li>
-        <div class='dropdown'>
-            <button class='dropbtn'>Others
-            <i class='fa fa-caret-down'>
-            </button>
-            <div class='dropdown-content'>
-                <a href='/rss/'>RSS blog</a>
-                <a href='/teto/'>Kasane Teto</a>
-                <a href='/project_page/file_uploading/'>File uploading (testing)</a>
-                <a href='/project_page/file_uploading/uploads/checkpoint.php'>File Uploads</a>
-            </div>
-        </div>
-        <div class='navbar-social'><li><a href='/project_page/socials/'>Contact Me!</a></li></div>
+        <li><a href='/CrimsonHacks/'>Homepage</a></li>
+        <li><a href='/CrimsonHacks/projects/'>Projects</a></li>
+        <li><a href='/CrimsonHacks/forum/'>Forum</a></li>
+        <li><a href='/CrimsonHacks/dating/'>Dating</a></li>
+        <li><a href='/CrimsonHacks/news/'>News</a></li>
+        <div class='navbar-social'><li><a href='/CrimsonHacks/leader.png'>Mars Marx Party</a></li></div>
     </ul>   
 </nav>
 ";
@@ -66,5 +57,32 @@ function winamp() {
   <div id='winamp-container'></div>
   <script src='https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js'></script>
   <script src='/js/webamp.js'></script>";
+}
+?>
+
+<?php
+
+function navbar_bak() {
+return "
+<nav class='navbar'>
+    <ul>
+        <li><a href='/'>Homepage</a></li>
+        <li><a href='/projects/'>Projects</a></li>
+        <li><a href='/Forum/'>Forum</a></li>
+        <div class='dropdown'>
+            <button class='dropbtn'>Others
+            <i class='fa fa-caret-down'>
+            </button>
+            <div class='dropdown-content'>
+                <a href='/rss/'>RSS blog</a>
+                <a href='/teto/'>Kasane Teto</a>
+                <a href='/project_page/file_uploading/'>File uploading (testing)</a>
+                <a href='/project_page/file_uploading/uploads/checkpoint.php'>File Uploads</a>
+            </div>
+        </div>
+        <div class='navbar-social'><li><a href='/project_page/socials/'>Contact Me!</a></li></div>
+    </ul>   
+</nav>
+";
 }
 ?>

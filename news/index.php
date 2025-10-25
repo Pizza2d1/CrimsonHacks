@@ -5,7 +5,7 @@ include_once("./includes/news.php");
 
 <!DOCTYPE html>
 <html lang="en-US">
-    <?php echo head(['all']);?>
+    <?php echo head(['all','news']);?>
     <body>
       
     
