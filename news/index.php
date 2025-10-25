@@ -42,7 +42,7 @@ Cydonia stands ready. No chili dog will be left unguarded. The city vows to prot
 
             <!-- Right Image -->
             <div class="text-container right">
-                <h3><a href="This is text on the side"</a></h3>
+                <h3><a href="https://pizza2d1.duckdns.org/CrimsonHacks/cia/">This is text on the side</a></h3>
             </div>
         </div>
     </main>
