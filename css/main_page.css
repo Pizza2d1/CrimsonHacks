@@ -68,7 +68,7 @@ h1{
     font-weight: 9000;
     /* text-transform: uppercase; */
     align-self: center;
-    text-decoration: underline;
+    text-align: center;
 }
 a {
     text-decoration: none;
