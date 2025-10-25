@@ -82,7 +82,7 @@ return "
 </div>
 ";}
 function alien_ad() {
-  $path = '/img/CrimsonHacks/ads';
+  $path = '/CrimsonHacks/img/ads';
   $files = scandir($path);
   $k = array_rand($array);
   $v = $array[$k];
