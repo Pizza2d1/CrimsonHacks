@@ -52,6 +52,8 @@ $newsContent3 = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
                 <br><br>
                 <h2><?= $newsTitle3 ?></h2>
                 <p><?= $newsContent3 ?></p>
+                <br><br>
+                <br><br>
             </div>
 
             <!-- Right Image -->
