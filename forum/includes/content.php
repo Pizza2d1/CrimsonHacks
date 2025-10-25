@@ -103,7 +103,7 @@ return "
 ";}
 function alien_ad_left() {
   return "<div class='news-container'><div class='image-container left'>
-                <img src='https://cdn.discordapp.com/attachments/1430037351475707986/1431491953668915329/image.png?ex=68fd9c45&is=68fc4ac5&hm=e9ef420044db8ca4f8a0d11e824dbb1c652d767aa9f259f3e96ef32243a7cdea&' alt='Image 1' class='news-image'>
+                <img src='/CrimsonHacks/img/ads/hot_aliens.png' alt='Image 1' class='news-image'>
         </div></div>";
 }
 ?>
