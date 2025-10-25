@@ -5,7 +5,6 @@ function head($css_list) {
     <head>
         <title>Mars News</title>
         <link rel='icon' href='/img/mars-favicon.png' type='image/x-icon'>
-        <p></p>
     " . css_pointers($css_list) . "
     </head>";
 }
@@ -15,7 +14,7 @@ function css_pointers($css_list) {
         if (str_contains($css_name, 'https:')) {
             $output .= "<link rel='stylesheet' href='$css_name'>";
         } else {
-            $output .= "<link rel='stylesheet' href='/CSS/$css_name.css'>";
+            $output .= "<link rel='stylesheet' href='/CrimsonHacks/css/$css_name.css'>";
         }
     }
     return $output;
