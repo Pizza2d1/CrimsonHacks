@@ -11,8 +11,9 @@ include_once("./includes/content.php");
       echo navbar();
       echo forum_item();
       echo alien_ad(); # To left
-      echo alien_ad(); # To right
     ?>
+
+      <div class='advertisement'><img src='/CrimsonHacks/img/img.png'</div>
     </body>
 </html>
 
