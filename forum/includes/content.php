@@ -25,7 +25,8 @@ function forum_item() {
     return $output;
 }
 function get_project_data() {
-  $lipsum = new LoremIpsum();
+  #$lipsum = new LoremIpsum();
+  $lipsum = new joshtronic\LoremIpsum();
 
   $lorem = $lipsum->word(10);
 
