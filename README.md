@@ -1,6 +1,9 @@
 # Crimson Hacks Competition
 
 This where we store our files for the event
+
+
+Website link: [https://pizza2d1.duckdns.org/CrimsonHacks/](https://pizza2d1.duckdns.org/CrimsonHacks/)
 ___
 
 ### Idea:
