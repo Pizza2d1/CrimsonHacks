@@ -4,12 +4,11 @@ session_start();
 
 // 1) CONFIG: Your image list
 $images = [
-  // Replace with your own URLs or local paths (e.g., "images/pic1.jpg")
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
-  "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c",
-  "https://images.unsplash.com/photo-1544168190-79c17527004e",
-  "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+  "/CrimsonHacks/img/dating/Dating1.jpg",
+  "/CrimsonHacks/img/dating/Dating2.jpg",
+  "/CrimsonHacks/img/dating/Dating3.jpg",
+  "/CrimsonHacks/img/dating/Dating4.jpg",
+  "/CrimsonHacks/img/dating/Dating5.jpg",
 ];
 
 // Initialize session state
