@@ -23,6 +23,7 @@ function css_pointers($css_list) {
 function navbar() {
 return "
 <nav class='navbar'>
+    <h1>Martian Marxist Party</h1>
     <ul>
         <li><a href='/'>Homepage</a></li>
         <li><a href='/project_page/projects/'>Projects</a></li>
