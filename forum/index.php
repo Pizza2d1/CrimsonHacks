@@ -1,6 +1,6 @@
 <?php
 include_once("../includes/all.php");
-include_once("./includes/forum.php");
+include_once("./includes/content.php");
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,6 @@ include_once("./includes/forum.php");
     <?php
       echo forum_item(5);
     ?>
-    
     </body>
 </html>
 
