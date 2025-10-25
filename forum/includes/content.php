@@ -21,7 +21,7 @@ function forum_item() {
       $output .= getInfoAsBox($item_box);
     }
     $output .= '</div>'; 
-    $output .= '<br>'; 
+    $output .= '<br><br><br><br>'; 
     return $output;
 }
 function get_project_data() {
@@ -36,17 +36,17 @@ In consequat nunc eu lectus scelerisque, quis vehicula tellus lobortis. Etiam fa
     ""
     ),
       new Info_Box(
+    "Am I a prostitute for \"doing it\" for a chili dog?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    ""
+    ),
+      new Info_Box(
     "I cut my wife off from our finances because she wouldn’t stop ordering chili dogs, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     ""
     ),
       new Info_Box(
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
-    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    ""
-    ),
-      new Info_Box(
-    "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     ""
     )
@@ -64,7 +64,22 @@ function getInfoAsBox($info_box) {
         #$image = (strtolower($info_box->image) == "none") ? "" : "<a href='$info_box->href'><img src=$info_box->image alt='Image not found' width='100%' height='auto'></a>";
         $image = $info_box->image;
         $about = $info_box->about;
+        #return "
+        #    <div class='forum-card' style='border: 5px solid black; border-radius: 5px; margin: 10px; padding: 10px;'>
+        #        <div class='forum-title'>
+        #          <img style='width: 80px;' src='$image'>
+        #          <h2>$title</h2>
+        #        </div>
+        #        <div class='forum-about'><h4>$about</h4></div>
+        #        <svg style='width: 24px;' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z'/></svg>
+        #        3
+        #    </div>
+        #</div>";
+
         return "
+        <div class='news-container'>
+            <!-- News Content -->
+            <div class='news-content'>
             <div class='forum-card' style='border: 5px solid black; border-radius: 5px; margin: 10px; padding: 10px;'>
                 <div class='forum-title'>
                   <img style='width: 80px;' src='$image'>
@@ -74,6 +89,9 @@ function getInfoAsBox($info_box) {
                 <svg style='width: 24px;' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z'/></svg>
                 3
             </div>
+        </div>
+            </div>
+
         </div>";
 };
 function title() {
@@ -83,8 +101,15 @@ return "
 <h2>Spot to share your experiences</h2>
 </div>
 ";}
-function alien_ad() {
-  echo "<div class='advertisement'><img src='/CrimsonHacks/img/ads/hot_aliens.png'</div>";
+function alien_ad_left() {
+  echo "<div class='image-container left'>
+                <img src='https://cdn.discordapp.com/attachments/1430037351475707986/1431491953668915329/image.png?ex=68fd9c45&is=68fc4ac5&hm=e9ef420044db8ca4f8a0d11e824dbb1c652d767aa9f259f3e96ef32243a7cdea&' alt='Image 1' class='news-image'>
+      </div>";
+}
+function alien_ad_left() {
+  echo "<div class='image-container right'>
+                <img src='https://cdn.discordapp.com/attachments/1430037351475707986/1431491953668915329/image.png?ex=68fd9c45&is=68fc4ac5&hm=e9ef420044db8ca4f8a0d11e824dbb1c652d767aa9f259f3e96ef32243a7cdea&' alt='Image 1' class='news-image'>
+      </div>";
 }
 ?>
 

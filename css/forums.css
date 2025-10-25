@@ -108,3 +108,28 @@ a:hover {
 .profile {
   width: 80px;
 }
+
+/* Layout for the news container */
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.news-content {
+    max-width: 600px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 200px;
+    margin: 0 10px;
+}
+.text-container {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 10px;
+}
