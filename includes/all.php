@@ -29,6 +29,7 @@ return "
         <li><a href='/forum/'>Forum</a></li>
         <li><a href='/dating/'>Dating</a></li>
         <li><a href='/news/'>News</a></li>
+        <div class='navbar-social'><li>Mars Marx Party</li></div>
     </ul>   
 </nav>
 ";
