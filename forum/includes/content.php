@@ -63,15 +63,17 @@ function getInfoAsBox($info_box) {
         $title = $info_box->title;
         #$image = (strtolower($info_box->image) == "none") ? "" : "<a href='$info_box->href'><img src=$info_box->image alt='Image not found' width='100%' height='auto'></a>";
         $image = $info_box->image;
-        return "
-            <div class='forum-card'>
-                <div class='forum-title'>
-                  <img src='$image'>
-                  $title
-                </div>
-                <div class='forum-about'><h4>$info_box->about</h4></div>
-            </div>
-        </div>";
+        $about = $info_box->about;
+        return "balls";
+        #return "
+        #    <div class='forum-card'>
+        #        <div class='forum-title'>
+        #          <img src='$image'>
+        #          $title
+        #        </div>
+        #        <div class='forum-about'><h4>$about</h4></div>
+        #    </div>
+        #</div>";
 };
 function title() {
 return "
