@@ -71,6 +71,7 @@ function getInfoAsBox($info_box) {
                   <h2>$title</h2>
                 </div>
                 <div class='forum-about'><h4>$about</h4></div>
+                <i class="fa-solid fa-comment"></i>
             </div>
         </div>";
 };
