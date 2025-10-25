@@ -15,6 +15,7 @@ $newsContent2 = "Chaos erupted this morning as reports came in that enemy forces
 Analysts warn that if the enemy succeeds, it could lead to a severe morale crisis across the city. But for now, Cydonia stands united, determined to defend every last chili dog from theft or destruction.";
 $newsTitle3 = "How the radical humans are taking away your right to sapien meat";
 $newsContent3 = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.";
+$newsTitle4 = "50 Aligators found in Cydania crader";
 ?>
 
 <!DOCTYPE html>
@@ -52,6 +53,10 @@ $newsContent3 = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
                 <br><br>
                 <h2><?= $newsTitle3 ?></h2>
                 <p><?= $newsContent3 ?></p>
+                <br><br>
+                <h2><?= $newsTitle4 ?></h2>
+                <p><?= $newsContent3 ?></p>
+                <br><br>
                 <br><br>
                 <br><br>
             </div>
