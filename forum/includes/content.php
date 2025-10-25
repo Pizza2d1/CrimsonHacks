@@ -84,8 +84,8 @@ return "
 function alien_ad() {
   $path = '/CrimsonHacks/img/ads';
   $files = scandir($path);
-  $k = array_rand($array);
-  $v = $array[$k];
+  $k = array_rand($files);
+  $v = $files[$k];
   echo "<div class='advertisement'><img src='$v'</div>";
 }
 ?>
