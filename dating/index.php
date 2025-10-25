@@ -69,6 +69,7 @@ $currentSrc = $currentIndex < $total ? $images[$currentIndex] : null;
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Smash or Pass</title>
 <link rel="stylesheet" href="/CrimsonHacks/css/dating.css">
+<link rel="stylesheet" href="/CrimsonHacks/css/navbar.css">
 </head>
 <body>
     <?php echo navbar();?>
