@@ -12,7 +12,7 @@ include_once("./includes/main_page.php");
   <main id="main" class="hero">
     <div class="hero-media">
       <div class="video-frame">
-        <video controls playsinline preload="metadata">
+        <video playsinline autoplay preload="metadata">
           <source src="img/MartianAddress.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
