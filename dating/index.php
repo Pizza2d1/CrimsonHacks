@@ -3,7 +3,7 @@
 session_start();
 
 // 1) CONFIG: Your image list
-$basePath = '/CrimsonHacks/img/dating/';
+$basePath = '/CrimsonHacks/img/Dating/';
 $images = [
   $basePath . 'Dating1.jpg',
   $basePath . 'Dating2.jpg',
