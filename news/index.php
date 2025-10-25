@@ -35,13 +35,13 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
 
             <!-- Right Image -->
             <div class="image-container right">
-                <img src="images/leader.png" alt="Image 2" class="news-image">
+                <h3>This is text on the side</h3>
             </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; <?= date('Y') ?> News Site. All rights reserved.</p>
+        <p>&copy; <?= date('Y') ?> Mars United. All rights reserved.</p>
     </footer>
 
 </body>
