@@ -17,9 +17,9 @@ function forum_item() {
 
     $output = "";
     $output .= '<div class="forum-row">';
-    foreach ($item_box : $info_boxes) {
-      $output .= getInfoAsBox($item_box);
-    }
+    #foreach ($item_box : $info_boxes) {
+    #  $output .= getInfoAsBox($item_box);
+    #}
     $output .= '</div>'; 
     $output .= '<br>'; 
     return $output;
