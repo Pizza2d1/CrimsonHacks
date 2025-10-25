@@ -35,7 +35,7 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
 
             <!-- Right Image -->
             <div class="image-container right">
-                <h2>This is text on the side</h2>
+                <h3>This is text on the side</h3>
             </div>
         </div>
     </main>
