@@ -3,12 +3,13 @@
 session_start();
 
 // 1) CONFIG: Your image list
+$basePath = '../img/dating/';
 $images = [
-  "/CrimsonHacks/img/dating/Dating1.jpg",
-  "/CrimsonHacks/img/dating/Dating2.jpg",
-  "/CrimsonHacks/img/dating/Dating3.jpg",
-  "/CrimsonHacks/img/dating/Dating4.jpg",
-  "/CrimsonHacks/img/dating/Dating5.jpg",
+  $basePath . 'Dating1.jpg',
+  $basePath . 'Dating2.jpg',
+  $basePath . 'Dating3.jpg',
+  $basePath . 'Dating4.jpg',
+  $basePath . 'Dating5.jpg',
 ];
 
 // Initialize session state
