@@ -10,6 +10,7 @@ include_once("./includes/content.php");
     <?php
       echo navbar();
       echo forum_item();
+      echo alien_ad();
     ?>
     </body>
 </html>
