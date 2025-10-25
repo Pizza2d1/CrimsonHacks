@@ -18,7 +18,6 @@ function forum_item() {
     $output = "";
     $output .= '<div class="forum-row">';
     foreach ($info_boxes as $item_box) {
-      echo "balls";
       $output .= getInfoAsBox($item_box);
     }
     $output .= '</div>'; 
@@ -26,7 +25,10 @@ function forum_item() {
     return $output;
 }
 function get_project_data() {
-  $lorem = "balls";
+  #$lipsum = new LoremIpsum();
+  $lipsum = new joshtronic\LoremIpsum();
+
+  $lorem = $lipsum->word(10);
 
     $info_boxes = [
       new Info_Box(
