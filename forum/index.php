@@ -8,6 +8,7 @@ include_once("./includes/content.php");
     <?php echo head(['all','forum']);?>
     <body>
     <?php
+      echo navbar();
       echo forum_item();
     ?>
     </body>
