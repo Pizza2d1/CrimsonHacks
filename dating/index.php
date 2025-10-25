@@ -1,4 +1,5 @@
 <?php
+include_once("../includes/all.php");
 // index.php
 session_start();
 
@@ -70,6 +71,7 @@ $currentSrc = $currentIndex < $total ? $images[$currentIndex] : null;
 <link rel="stylesheet" href="/CrimsonHacks/css/dating.css">
 </head>
 <body>
+    <?php echo navbar();?>
 <div class="app">
   <div class="topbar">
     <div class="title">Smash or Pass</div>
