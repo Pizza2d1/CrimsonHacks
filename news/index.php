@@ -35,9 +35,6 @@ Cydonia stands ready. No chili dog will be left unguarded. The city vows to prot
             <div class="news-content">
                 <h2><?= $newsTitle ?></h2>
                 <p><?= $newsContent ?></p>
-                <br><br>
-                <h2><?= $newsTitle2 ?></h2>
-                <p><?= $newsContent2 ?></p>
             </div>
 
             <!-- Right Image -->
