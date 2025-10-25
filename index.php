@@ -9,6 +9,8 @@ include_once("./includes/main_page.php");
     <body>
     <?php echo navbar(); ?> 
       
+
+    <img src="img/img.png">
     
     </body>
 </html>

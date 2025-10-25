@@ -1,27 +1,33 @@
-html, body {
-    font-family: Poppins, Segoe UI, sans-serif;
-    /* background-color: black;
+html,
+body {
+  font-family:
+    Poppins,
+    Segoe UI,
+    sans-serif;
+  /* background-color: black;
     color: #fff; */
 }
 
 .disclaimer {
-    color: red;
-    margin-bottom: 1px;
+  color: red;
+  margin-bottom: 1px;
 }
 
 .all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
 }
-.all-browsers > h1, .browser {
+.all-browsers > h1,
+.browser {
   margin: 10px;
   padding: 5px;
 }
 .browser {
   background: white;
 }
-.browser > h2, p {
+.browser > h2,
+p {
   margin: 4px;
   font-size: 90%;
 }
@@ -31,9 +37,9 @@ footer {
   background-color: rgb(0, 0, 0);
 }
 .footer-column {
-    float: left;
-    width: 30%;
-    padding: 5px;
+  float: left;
+  width: 30%;
+  padding: 5px;
 }
 .footer-row::after {
   content: "";
@@ -41,12 +47,12 @@ footer {
   display: table;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 .corner {
-    background-color: red;
-    float: right;
-    color: white;
+  background-color: red;
+  float: right;
+  color: white;
 }
 
 /* The dropdown container */
@@ -56,31 +62,31 @@ ul {
 }
 
 .navbar ul {
-    list-style-type: none;
-    background-color: black;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+  list-style-type: none;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
 
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
 }
 
 .navbar a:hover {
-    background-color: rgb(32, 32, 32);
+  background-color: rgb(32, 32, 32);
 }
 
-.navbar li{
-    float: left;
+.navbar li {
+  float: left;
 }
 
-.navbar-social li{
-    float: right;
+.navbar-social li {
+  float: right;
 }
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -95,7 +101,8 @@ ul {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -105,7 +112,7 @@ ul {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -130,16 +137,19 @@ ul {
 }
 
 #toc_container {
-    border: 1px solid gray;
-    background: lightgray;
-    padding: 10px;
-    margin: 10px;
+  border: 1px solid gray;
+  background: lightgray;
+  padding: 10px;
+  margin: 10px;
 }
-#toc_container a{
-    text-decoration: none;
+#toc_container a {
+  text-decoration: none;
 }
 
 .toc_title {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ad {
 }
