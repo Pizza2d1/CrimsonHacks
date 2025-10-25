@@ -27,7 +27,6 @@ $newsTitle4 = "50 Aligators found in Cydania crader";
 </head>
 <body>
 
-    <?php echo navbar(); 
 
                 #<h3><a href="https://pizza2d1.duckdns.org/CrimsonHacks/cia/">This is text on the side</a></h3>
 ?>
@@ -36,6 +35,7 @@ $newsTitle4 = "50 Aligators found in Cydania crader";
         <h1>Martian News</h1>
         <p>(def not propaganda)</p>
     </header>
+    <?php echo navbar(); 
 
     <main>
         <div class="news-container">
