@@ -26,7 +26,6 @@ return "
     <h1>Martian Marxist Party</h1>
     <ul>
         <li><a href='/CrimsonHacks/'>Homepage</a></li>
-        <li><a href='/CrimsonHacks/projects/'>Projects</a></li>
         <li><a href='/CrimsonHacks/forum/'>Forum</a></li>
         <li><a href='/CrimsonHacks/dating/'>Dating</a></li>
         <li><a href='/CrimsonHacks/news/'>News</a></li>
