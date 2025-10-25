@@ -10,7 +10,12 @@ include_once("./includes/main_page.php");
   <?php echo navbar(); ?> 
 
   <div id="main">
-    <img src="img/img.png" style="width: 100px; height: 100px;">
+    <video width="300" controls>
+      <source src="img/MartianAddress.mp4" type="video/mp4">
+    </video>
+
+    <br>
+
     "Do you want to charge us for just eating Humans? To this crime we plead guilty. " - Our glorius leader Karl Mars
   </div>
 
