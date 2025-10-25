@@ -51,7 +51,7 @@ Analysts warn that if the enemy succeeds, it could lead to a severe morale crisi
 
             <!-- Right Image -->
             <div class="text-container right">
-                <video width="300" controls>
+                <video width="300" controls autoplay>
                   <source src="../img/MartianAddress.mp4" type="video/mp4">
                 </video>
             </div>
