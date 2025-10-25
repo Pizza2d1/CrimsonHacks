@@ -8,7 +8,7 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php head(['all']); ?>
+    <?php echo head(['all']); ?>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
