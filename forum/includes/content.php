@@ -78,11 +78,6 @@ function getInfoAsBox($info_box) {
 
         return "
         <div class='news-container'>
-            <!-- Left Image -->
-            <div class='image-container left'>
-                <img src='images/img.png' alt='Image 1' class='news-image'>
-            </div>
-
             <!-- News Content -->
             <div class='news-content'>
             <div class='forum-card' style='border: 5px solid black; border-radius: 5px; margin: 10px; padding: 10px;'>
@@ -97,12 +92,6 @@ function getInfoAsBox($info_box) {
         </div>
             </div>
 
-            <!-- Right Image -->
-            <div class='text-container right'>
-                <video width='300' controls autoplay loop muted>
-                  <source src='../img/MartianAddress.mp4' type='video/mp4'>
-                </video>
-            </div>
         </div>";
 };
 function title() {
