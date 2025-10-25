@@ -5,7 +5,7 @@ include_once("./includes/content.php");
 
 <!DOCTYPE html>
 <html lang="en-US">
-    <?php echo head(['all','forum']);?>
+    <?php echo head(['all','forums']);?>
     <body>
     <?php
       echo navbar();
