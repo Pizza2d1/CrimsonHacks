@@ -22,7 +22,7 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
         <div class="news-container">
             <!-- Left Image -->
             <div class="image-container left">
-                <img src="images/image1.jpg" alt="Image 1" class="news-image">
+                <img src="images/img.png" alt="Image 1" class="news-image">
             </div>
 
             <!-- News Content -->
@@ -33,7 +33,7 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
 
             <!-- Right Image -->
             <div class="image-container right">
-                <img src="images/image2.jpg" alt="Image 2" class="news-image">
+                <img src="images/leader.png" alt="Image 2" class="news-image">
             </div>
         </div>
     </main>
