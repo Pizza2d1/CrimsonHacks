@@ -36,17 +36,17 @@ In consequat nunc eu lectus scelerisque, quis vehicula tellus lobortis. Etiam fa
     ""
     ),
       new Info_Box(
+    "Am I a prostitute for \"doing it\" for a chili dog?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    ""
+    ),
+      new Info_Box(
     "I cut my wife off from our finances because she wouldn’t stop ordering chili dogs, Am I the Asshole?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     ""
     ),
       new Info_Box(
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
-    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
-    ""
-    ),
-      new Info_Box(
-    "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     ""
     )
