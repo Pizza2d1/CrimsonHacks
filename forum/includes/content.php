@@ -25,10 +25,9 @@ function forum_item() {
     return $output;
 }
 function get_project_data() {
-  #$lipsum = new LoremIpsum();
-  $lipsum = new joshtronic\LoremIpsum();
+  $lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae sodales ipsum. Ut egestas felis orci, eget bibendum erat scelerisque scelerisque. Donec et pretium libero, vel aliquet ipsum. Aliquam nec velit et nisl gravida posuere. Maecenas ipsum est, tempor sed quam ac, lobortis ultrices est. Maecenas eget lobortis sapien, a scelerisque sem. Nulla nec nibh ac erat aliquam egestas sit amet vitae neque.
 
-  $lorem = $lipsum->word(10);
+In consequat nunc eu lectus scelerisque, quis vehicula tellus lobortis. Etiam faucibus imperdiet arcu. Mauris vehicula porta condimentum. Donec eu quam vestibulum, viverra libero ac, molestie elit. Donec sollicitudin nec est a rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam faucibus lacus a lectus lobortis elementum non vel dui. Sed scelerisque, nisi nec lacinia pharetra, turpis massa lobortis ligula, eu commodo augue est sit amet velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vel laoreet arcu. Cras mattis, massa id mollis lobortis, erat felis condimentum sem, at eleifend ante arcu nec mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi velit dolor, lobortis sit amet viverra nec, imperdiet eu felis.";
 
     $info_boxes = [
       new Info_Box(
