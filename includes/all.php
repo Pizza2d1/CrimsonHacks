@@ -30,7 +30,7 @@ return "
         <li><a href='/CrimsonHacks/forum/'>Forum</a></li>
         <li><a href='/CrimsonHacks/dating/'>Dating</a></li>
         <li><a href='/CrimsonHacks/news/'>News</a></li>
-        <div class='navbar-social'><li><a href='/CrimsonHacks/img/leader.png'>Mars Marx Party</a></li></div>
+        <div class='navbar-social'><li><a href='https://youtu.be/oHg5SJYRHA0'>Mars Marx Party</a></li></div>
     </ul>   
 </nav>
 ";
