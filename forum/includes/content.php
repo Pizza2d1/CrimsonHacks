@@ -1,4 +1,5 @@
 <?php
+include_once("./lorem.php");
 function forum_item($amount_to_show) {
     class Info_Box {
       public $title;
@@ -24,20 +25,40 @@ function forum_item($amount_to_show) {
       $output .= getInfoAsBox($item_box);
     }
     $output .= '</div>'; 
+    $output .= '<br>'; 
     return $output;
 }
 function get_project_data() {
+    $lipsum = new LoremIpsum();
+
     $projects_dir = "/project_page/projects";
+    
     $info_boxes = [
       new Info_Box(
-    "Should I get a tentacle enlargement?", # Box Title
-    "/img/CrimsonHacks/question_mark.jpg", # Link to image that is displayed in the box, "NONE" if there is none
-    "My wife wants me bigger, I dont want bigger"), # Description of project
-
+    "I locked my son in his room for insulting Karl Mars, Am I the Asshole?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    $lipsum->words(5); 
+    ),
       new Info_Box(
-    "My Operating System Built From Scratch",
-    "$projects_dir/os_making/img/qemu1.png",
-    "Currently at the \"Bare Bones\" stage in the <a href='osdev.org'>OSDev guide website</a>"),
+    "I cut my wife off from our finances because she wouldn’t stop ordering chili dogs, Am I the Asshole?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    $lipsum->words(5); 
+    ),
+      new Info_Box(
+    "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    $lipsum->words(5); 
+    ),
+      new Info_Box(
+    "Am I a prostitute for \"doing it\" for a chili dog?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    $lipsum->words(5); 
+    ),
+    #  new Info_Box(
+    #"My Operating System Built From Scratch",
+    #"$projects_dir/os_making/img/qemu1.png",
+    #"Currently at the \"Bare Bones\" stage in the <a href='osdev.org'>OSDev guide website</a>"),
+        
 
     ];
     return $info_boxes;
