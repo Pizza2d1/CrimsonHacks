@@ -1,4 +1,5 @@
 <?php
+include_once("../includes/all.php");
 // Example news data (this can be dynamic, fetched from a database)
 $newsTitle = "Breaking News: Major Event Happens!";
 $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec venenatis arcu. Suspendisse potenti. Nulla facilisi. Vivamus pharetra, mauris ac vehicula dictum, lorem ligula tincidunt sem, at venenatis magna nulla ac ligula. Sed auctor augue a felis facilisis, eget placerat nunc iaculis. Sed sollicitudin dolor id odio tempor, nec euismod ipsum malesuada.";
@@ -17,6 +18,8 @@ $newsContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
     <header>
         <h1>Welcome to the News Site</h1>
     </header>
+
+    <?php echo navbar(); ?>
 
     <main>
         <div class="news-container">
