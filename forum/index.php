@@ -7,7 +7,9 @@ include_once("./includes/forum.php");
 <html lang="en-US">
     <?php echo head(['all','forum']);?>
     <body>
-      
+    <?php
+      echo forum_item(5);
+    ?>
     
     </body>
 </html>
