@@ -55,6 +55,10 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
 /* Left and Right Image Specific Styles */
 .left {
     margin-right: 10px;
