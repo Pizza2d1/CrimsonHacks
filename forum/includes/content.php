@@ -17,7 +17,7 @@ function forum_item() {
 
     $output = "";
     $output .= '<div class="forum-row">';
-    foreach ($item_box as $info_boxes) {
+    foreach ($info_boxes as $item_box) {
       echo "balls";
       $output .= getInfoAsBox($item_box);
     }
@@ -41,6 +41,11 @@ function get_project_data() {
     ),
       new Info_Box(
     "I find my wife unattractive after getting a tenticle enlargement, Am I the Asshole?",
+    "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
+    $lorem
+    ),
+      new Info_Box(
+    "Am I a prostitute for \"doing it\" for a chili dog?",
     "/CrimsonHacks/img/leader.png", # Link to image that is displayed in the box, "NONE" if there is none
     $lorem
     )
