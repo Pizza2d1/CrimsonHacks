@@ -158,3 +158,8 @@ ul {
   float: right;
   margin: 10px;
 }
+
+#main {
+  width: 200px;
+  margin: auto;
+}
